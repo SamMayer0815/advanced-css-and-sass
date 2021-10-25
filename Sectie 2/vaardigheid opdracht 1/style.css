@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.img {
+  width: 1200px;
+  height: 672px;
+  clip-path: polygon(0% 0%, 10% 0%, 100% 10%, 100% 100%, 0% 100%);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)),
+    url(callingguy.png);
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logoo {
+  width: 40px;
+}
+
+.logo:hover .logoo {
+  animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}

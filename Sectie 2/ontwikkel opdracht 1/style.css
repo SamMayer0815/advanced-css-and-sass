@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+.doei {
+  width: 1200px;
+  height: 672px;
+  clip-path: polygon(
+    510px 0px,
+    0px 0px,
+    0px 672px,
+    1200px 672px,
+    1200px 0px,
+    510px 0px,
+    510px 270px,
+    700px 270px,
+    700px 330px,
+    510px 330px
+  );
+
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)),
+    url(callingguy.png);
+  background-size: cover;
+
+  position: relative;
+}
