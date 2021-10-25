@@ -1,12 +1,12 @@
 * {
   padding: 0px;
   margin: 0px;
-  background-color: black;
 }
 
 .doei {
   width: 1200px;
   height: 672px;
+
   clip-path: polygon(
     510px 0px,
     0px 0px,
@@ -22,7 +22,13 @@
 
   background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)),
     url(callingguy.png);
+  background-color: black;
   background-size: cover;
 
   position: relative;
+}
+
+.rep {
+  background-color: black;
+  width: 1000px;
 }
